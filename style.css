@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#startover{
+  display:block;
+  width:100%;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  color:white;
+  background:dodgerblue;
+  border:2px solid dodgerblue;
+  border-bottom:none;
+  transition-duration:0.3s;
+}
+#startover:hover{
+  background:white;
+  color:dodgerblue;
+}
+#msg{
+  color:crimson;
+  border:2px solid gainsboro;
+  display:block;
+  width:100%;
+  text-decoration:none;
+  font-weight:bold;
+  padding:10px;
+  text-align:center;
+}
+
+
+
+#game {
+  background:gainsboro;
+}
+
+.pixel {
+  border:1px solid transparent;
+  padding: 8px;
+  background: gainsboro;
+  border-radius: 0px;
+  display: inline-block;
+  float: left;
+}
+
+.food {
+  background: dodgerblue!important;
+  border-radius: 50%;
+  transition-duration: 0.5s;
+}
+
+.col {
+  display: block;
+  overflow: auto;
+}
+
+.active {
+  //border:1px solid #555;
+  ba/ckground: #444;
+}
